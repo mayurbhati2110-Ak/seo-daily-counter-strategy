@@ -1,0 +1,42 @@
+{
+  "site_id": "spearmint",
+  "source": "gsc",
+  "source_tier": "T1",
+  "retrieved_at": "2026-09-22T06:00:00+00:00",
+  "status": "valid",
+  "rows": [
+    {
+      "date": "2026-09-20",
+      "url": "https://spearmint.online/pricing",
+      "query": "seo software pricing",
+      "country": "IND",
+      "device": "DESKTOP",
+      "clicks": 65,
+      "impressions": 1900,
+      "ctr": 0.038,
+      "position": 6.5
+    },
+    {
+      "date": "2026-09-20",
+      "url": "https://spearmint.online/products",
+      "query": "seo software",
+      "country": "IND",
+      "device": "DESKTOP",
+      "clicks": 82,
+      "impressions": 1620,
+      "ctr": 0.0506,
+      "position": 6.9
+    },
+    {
+      "date": "2026-09-20",
+      "url": "https://spearmint.online/blog/seo-guide",
+      "query": "seo guide",
+      "country": "IND",
+      "device": "DESKTOP",
+      "clicks": 61,
+      "impressions": 1210,
+      "ctr": 0.0504,
+      "position": 8.9
+    }
+  ]
+}
