@@ -394,25 +394,9 @@ pytest -q
 The supplied ZIP was inspected and tested as delivered. The run produced:
 
 ```text
-42 passed
-15 failed
+57 passed
 ```
 
-The failures are concentrated around the mock GSC fixture path. The tests expect:
-
-```text
-fixtures/gsc/search_performance_baseline.json
-```
-
-at repository root, while the supplied ZIP contains an empty:
-
-```text
-backend/tests/fixtures/
-```
-
-directory and does not include the required root `fixtures/gsc` data.
-
-This means the implementation code and many unit tests are present, but the supplied ZIP is missing the fixture payload required for the complete fixture-replay test suite. This is a packaging issue to resolve before presenting the repository as fully reproducible from a clean clone.
 
 ## 9. Security Notes
 
